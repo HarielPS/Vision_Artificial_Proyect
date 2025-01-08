@@ -1,0 +1,27 @@
+Archivo informativo de formato de dataset y de las clases del modelo
+
+########################################################################
+
+clases:
+
+1: "cuchara",
+2: "tenedor",
+3: "cuchillo",
+4: "encendedor",
+5: "te"
+6: "otro"
+
+
+formato de csv:
+
+"Hu[1]": obj["momentos_hu"][0],
+"Hu[2]": obj["momentos_hu"][1],
+"Hu[3]": obj["momentos_hu"][2],
+"Hu[4]": obj["momentos_hu"][3],
+"Hu[5]": obj["momentos_hu"][4],
+"Hu[6]": obj["momentos_hu"][5],
+"Hu[7]": obj["momentos_hu"][6],
+"area": obj["area"],
+"perimetro": obj["perimetro"],
+"objeto": etiqueta,
+"imagen": ruta_imagen
